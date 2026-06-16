@@ -75,7 +75,7 @@ def main():
         print("4. Delete Student")
         print("5. Exit")
 
-        choice = input("Enter choice (1/2/3): ")
+        choice = input("Enter choice (1/2/3/4/5): ")
 
         if choice == "1":
             add_student()
@@ -89,7 +89,6 @@ def main():
             break
         else:
             print("Invalid choice. Try again.")
-
 
 main()
 
